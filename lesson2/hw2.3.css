@@ -1,0 +1,22 @@
+body{background-color: #335533;
+
+}
+div{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+div div{
+    background-color: rgba(213, 255, 213, 0.65);
+    height: 30vh;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+div div:hover{
+    background-color: beige;
+    border-radius: 20px;
+}

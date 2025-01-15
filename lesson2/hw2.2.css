@@ -1,0 +1,17 @@
+div{
+    width: 100vw;
+    display: flex;
+    background-color: #fafaab;
+    justify-content: space-around;
+    align-items: center;
+}
+div div{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+    margin: 60px;
+}
+div div:hover{
+    border-radius: 50%;
+    background-color: grey;
+}
