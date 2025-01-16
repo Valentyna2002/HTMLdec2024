@@ -6,3 +6,6 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+git remote add origin https://github.com/Valentyna2002/HTMLdec-2024.git
+git branch -M main
+git push -u origin main
