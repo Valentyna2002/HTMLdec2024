@@ -1,0 +1,52 @@
+
+body{
+    width:100vw;
+    height: 100vh;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-register{
+    width: 45vw;
+    height: 50vh;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+.form-register div:nth-child(1){
+        background-color: #b1e1e1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    height: 20%;
+}
+.form-register div:nth-child(1) h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+.form-register form{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+input[type=text],input[type=password]{
+    width: 300px;
+    height: 30px;
+    margin: 15px;
+}
+.form-register>form>div{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.form-register>form>div>input[type=submit]{
+    background-color: #9fe1e1;
+    border: 1px solid  silver;
+    border-radius: 15px;
+    width: 40px;
+    height: 20px;
+}
+form{
+    margin-top: 50px;
+}
